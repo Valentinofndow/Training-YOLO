@@ -1,0 +1,9 @@
+ultralytics==8.3.34
+opencv-python==4.9.0.80
+torch==2.2.1
+torchvision==0.17.1
+numpy==1.26.4
+matplotlib==3.8.3
+pillow==10.2.0
+tqdm==4.66.2
+pyyaml==6.0.1

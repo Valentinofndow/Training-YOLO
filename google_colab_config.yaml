@@ -1,0 +1,7 @@
+path: '/content/gdrive/My Drive/KRI/Dataset' # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+names:
+  0: Ball
+  1: Goalpost

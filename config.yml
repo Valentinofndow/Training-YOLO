@@ -1,0 +1,9 @@
+path: "D:/UMN/Kegiatan/Proyek/KRI/test02/data"
+train: "D:/UMN/Kegiatan/Proyek/KRI/test02/data/images/train"
+val: "D:/UMN/Kegiatan/Proyek/KRI/test02/data/images/val"
+
+# Jumlah kelas
+nc: 1
+
+# Nama kelas
+names: ["Ball"]
