@@ -40,25 +40,30 @@ Model ini merupakan hasil training YOLOv11 menggunakan dataset custom.
 ## Cara Menjalankan
 
 ### 1. Clone Repository
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
-
+```
+git clone https://github.com/Valentinofndow/Training-YOLO.git
+cd Training-YOLO
+```
 
 ### 2. Install Dependencies
+```
 pip install -r requirements.txt
-
+```
 
 ### 3. Prediksi Gambar
+```
 python main.py
-
+```
 
 ### 4. Prediksi Video
+```
 python predict_video.py
-
+```
 
 ### 5. Prediksi Webcam
+```
 python predict_webcam.py
-
+```
 
 ## Dataset
 Struktur dataset mengikuti format YOLO standar (images + labels + file config.yml).
