@@ -3,7 +3,7 @@
 Project ini berisi implementasi model YOLOv11 untuk mendeteksi objek (bola dan gawang) menggunakan Python dan OpenCV. Repo ini mencakup script untuk prediksi gambar, video, webcam, serta konfigurasi dataset dan contoh hasil.
 
 ## Struktur Folder
-
+```
 project/
 │
 ├── data/
@@ -24,7 +24,7 @@ project/
 ├── predict_video.py
 ├── predict_webcam.py
 └── requirements.txt
-
+```
 ## Fitur
 - Deteksi objek (ball dan goalpost) menggunakan YOLOv11
 - Prediksi gambar
@@ -43,17 +43,22 @@ Model ini merupakan hasil training YOLOv11 menggunakan dataset custom.
 git clone https://github.com/yourusername/yourrepo.git
 cd yourrepo
 
+
 ### 2. Install Dependencies
 pip install -r requirements.txt
+
 
 ### 3. Prediksi Gambar
 python main.py
 
+
 ### 4. Prediksi Video
 python predict_video.py
 
+
 ### 5. Prediksi Webcam
 python predict_webcam.py
+
 
 ## Dataset
 Struktur dataset mengikuti format YOLO standar (images + labels + file config.yml).
